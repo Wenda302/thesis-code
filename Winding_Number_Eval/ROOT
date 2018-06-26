@@ -1,0 +1,15 @@
+chapter AFP
+
+session "Winding_Number_Eval" (AFP) = "HOL-Analysis" +
+  options [timeout = 600]
+  theories [document = false]
+    "~~/src/HOL/Computational_Algebra/Polynomial_Factorial"
+    "~~/src/HOL/Computational_Algebra/Fundamental_Theorem_Algebra"
+    "~~/src/HOL/Eisbach/Eisbach_Tools"
+    "../Sturm_Tarski/Sturm_Tarski"
+  theories
+    Winding_Number_Eval
+    Winding_Number_Eval_Examples
+  document_files
+    "root.tex"
+    "root.bib"

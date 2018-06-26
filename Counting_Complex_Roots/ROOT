@@ -1,0 +1,14 @@
+chapter AFP
+
+session "Counting_Complex_Roots" (AFP) = "HOL-Analysis" +
+  options [timeout = 600]
+  theories [document = false]
+    "../Winding_Number_Eval/Winding_Number_Eval"
+    "../Winding_Number_Eval/Cauchy_Index_Theorem"
+    "../Sturm_Tarski/Sturm_Tarski"
+  theories
+    Counting_Complex_Roots
+    Counting_Complex_Roots_Examples
+  document_files
+    "root.tex"
+    "root.bib"

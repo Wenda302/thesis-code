@@ -1,0 +1,32 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{isabelle,isabellesym}
+\usepackage{amsmath}
+\usepackage{amssymb} 
+
+% this should be the last package used
+\usepackage{pdfsetup}
+
+% urls in roman style, theory text in math-similar italics
+\urlstyle{rm}
+\isabellestyle{it}
+
+
+\begin{document}
+
+\title{Counting the Number of Complex Roots}
+\author{Wenda Li}
+\maketitle
+
+\begin{abstract}
+  This entry provides an effective procedure to count the number of complex roots (with multiplicity)  of a polynomial within a rectangle box or a half plane. An application of this entry is, for example, to test the Routh–Hurwitz stability criterion (i.e. whether all the roots of some characteristic polynomial have negative real parts). More about the idea of this entry can be found in the literature \cite{eisermann2012fundamental, rahman2002analytic}.
+\end{abstract}
+
+%\tableofcontents
+
+% include generated text of all theories
+\input{session}
+
+\bibliographystyle{abbrv}
+\bibliography{root}
+
+\end{document}
