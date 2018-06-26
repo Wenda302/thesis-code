@@ -1,6 +1,6 @@
 The proofs should be compatible with Isabelle2017.
 
-The relationship between the thesis and the sources are as follows:
+The relationship between the thesis and the sources is as follows:
 
 Chapter 3 -> Sturm_Tarski
 Chapter 4 -> Real_Algebraic_Number
