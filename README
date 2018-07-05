@@ -5,7 +5,8 @@ The relationship between the thesis and the sources is as follows:
 Chapter 3 -> Sturm_Tarski
 Chapter 4 -> Real_Algebraic_Number
 Chapter 5 -> Univ_RCF
-Chapter 6 -> N.A. (sources have already been incorporated in Analysis/Conformal_Mappings.thy in the Isabelle distribution.)
+Chapter 6 -> Residue_Example (NOTE: proof sources for the theorems have already been incorporated in Analysis/Conformal_Mappings.thy in the Isabelle distribution. 
+                    This folder only contains an example of applying Cauchy's residue theorem to evaluate improper integrals.)
 Chapter 7 -> Winding_Number_Eval & Counting_Complex_Roots
 Chapter 8 -> Multivariate_CAD
 
